@@ -1,0 +1,4 @@
+name: FrontMove
+version: '${project.version}'
+main: me.obinox.frontmove.FrontMove
+api-version: 1.19
