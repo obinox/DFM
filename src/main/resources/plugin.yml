@@ -1,4 +1,4 @@
-name: FrontMove
-version: '${project.version}'
-main: me.obinox.frontmove.FrontMove
+name: DFM
+version: '0.0.2'
+main: me.obinox.dfm.DFM
 api-version: 1.19
