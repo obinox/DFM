@@ -1,18 +1,17 @@
-package me.obinox.frontmove.handlers;
+package me.obinox.dfm.handlers;
 
 import org.bukkit.Bukkit;
 import org.bukkit.GameMode;
 import org.bukkit.Location;
-import org.bukkit.World;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-import me.obinox.frontmove.FrontMove;
+import me.obinox.dfm.DFM;
 import org.bukkit.event.player.PlayerMoveEvent;
 import org.bukkit.util.Vector;
 
 public class FrontHandler implements Listener {
-    public FrontHandler(FrontMove plugin) {
+    public FrontHandler(DFM plugin) {
         Bukkit.getPluginManager().registerEvents(this, plugin);
     }
     @EventHandler

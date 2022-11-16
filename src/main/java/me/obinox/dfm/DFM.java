@@ -1,10 +1,10 @@
-package me.obinox.frontmove;
+package me.obinox.dfm;
 
-import me.obinox.frontmove.handlers.FrontHandler;
+import me.obinox.dfm.handlers.FrontHandler;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class FrontMove extends JavaPlugin {
+public final class DFM extends JavaPlugin {
 
     @Override
     public void onEnable() {
